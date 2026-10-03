@@ -1,0 +1,17 @@
+# ============================================================
+# MC Dashboard – Konfiguration
+# ============================================================
+
+# URL zum Minecraft-Web-Dashboard (ohne Slash am Ende)
+dashboard_url = "http://127.0.0.1:8080"
+
+# Muss identisch sein mit VELOCITY_API_KEY im Python-Script.
+# Leer lassen = keine Authentifizierung (NICHT empfohlen).
+api_key = ""
+
+# Timeout für HTTP-Anfragen in Sekunden
+http_timeout_seconds = 10
+
+# Standard-Aktion, wenn kein Argument angegeben wurde.
+# Erlaubt: "status" oder "help"
+default_action = "help"
